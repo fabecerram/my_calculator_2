@@ -14,6 +14,10 @@ function inver() {
   var num = document.getElementById("n1");
   num.value = 1/num.value;
 }
+function fourtPower(){
+	var num = document.getElementById("n1");
+	num.value = Math.pow(num.value, 4);
+}
 </script>
 </head>
 <body>
@@ -23,6 +27,7 @@ function inver() {
   <p>
 	<button onclick="square()"> x^2 </button>
     <button onclick="cube()"> x^3 </button>
+	<button onclick="fourtPower()"> x^4 </button>
 	<button onclick="inver()"> 1/x </button>
   </p>
 </body>
